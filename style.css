@@ -2,34 +2,80 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #0d0d0d;
   color: #fff;
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.jersey {
-  background: linear-gradient(145deg, #1a1a1a, #333);
-  border-radius: 20px;
-  display: inline-block;
-  margin: 20px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111;
   padding: 20px;
   box-shadow: 0 0 15px #00ffff;
 }
 
-.jersey img {
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
+header .logo {
+  font-size: 40px;
 }
 
-input[type="submit"] {
-  background-color: #00ffff;
-  color: #000;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 10px;
+header h1 {
+  margin: 0;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #00ffff;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #0ff;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.category {
+  background: #111;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00ffff;
   cursor: pointer;
   font-weight: bold;
 }
 
-input[type="submit"]:hover {
-  background-color: #00b3b3;
+.category:hover {
+  background: #222;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00ffff;
+  width: 200px;
+  text-align: center;
 }
