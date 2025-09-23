@@ -1,9 +1,0 @@
-/ (root)
-│
-├─ index.html         ← Home page
-├─ short.html         ← Short sleeve jerseys
-├─ long.html          ← Long sleeve jerseys
-├─ css/
-│   └─ style.css      ← CSS for futuristic style
-└─ images/
-    ├─ 
