@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact — Alhamwi</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header>
+<div class="brand">Alhamwi</div>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="long-sleeve.html">Long Sleeve</a>
+  <a href="short-sleeve.html">Short Sleeve</a>
+  <a href="hoodies.html">Hoodies</a>
+  <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+  <a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<main class="contact-page">
+<h1>Contact Alhamwi</h1>
+<form action="https://formsubmit.co/jalhamwi0721@gmail.com" method="POST">
+  <input type="hidden" name="_next" value="contact-success.html">
+  <input type="hidden" name="_subject" value="New message from Alhamwi site">
+  <input type="hidden" name="_captcha" value="false">
+  <label>Name (required)<input type="text" name="name" required></label>
+  <label>Phone<input type="text" name="phone"></label>
+  <label>Email (required)<input type="email" name="email" required></label>
+  <label>Message<textarea name="message" rows="5" required></textarea></label>
+  <button type="submit">Send Message</button>
+</form>
+<p>If you have trouble sending, email: <strong>jalhamwi0721@gmail.com</strong></p>
+</main>
+
+<footer><p>© <span id="year5"></span> Alhamwi</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
