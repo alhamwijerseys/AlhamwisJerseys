@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Futuristic Jersey Shop</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuristic Jersey Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <div class="logo">🏆</div>
-  <div class="brand-name">Futuristic Jersey Shop</div>
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#shop">Shop</a></li>
-      <li><a href="#cart">Cart</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">🏆</div>
+    <div class="brand-name">Futuristic Jersey Shop</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#cart">Cart</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section class="hero" id="home">
-  <h2>Welcome to the Ultimate Jersey Store</h2>
-  <p>Find your style: Long Sleeve, Short Sleeve, Hoodies</p>
-</section>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <h1>Find Your Style</h1>
+    <p>Long Sleeve • Short Sleeve • Hoodies</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </section>
 
-<section class="categories" id="shop">
-  <div class="category">Long Sleeve</div>
-  <div class="category">Short Sleeve</div>
-  <div class="category">Hoodies</div>
-</section>
+  <!-- CATEGORIES -->
+  <section class="categories" id="categories">
+    <h2>Categories</h2>
+    <div class="category-list">
+      <div class="category">Long Sleeve</div>
+      <div class="category">Short Sleeve</div>
+      <div class="category">Hoodies</div>
+    </div>
+  </section>
 
-<section class="products">
-  <div class="product">Jersey 1</div>
-  <div class="product">Jersey 2</div>
-  <div class="product">Jersey 3</div>
-</section>
+  <!-- SHOP PRODUCTS -->
+  <section class="products" id="shop">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x200.png?text=Long+Sleeve+1" alt="Long Sleeve Jersey">
+        <h3>Long Sleeve Jersey</h3>
+        <p>$50</p>
+        <a href="#cart" class="buy-btn">Add to Cart</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x200.png?text=Short+Sleeve+1" alt="Short Sleeve Jersey">
+        <h3>Short Sleeve Jersey</h3>
+        <p>$40</p>
+        <a href="#cart" class="buy-btn">Add to Cart</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x200.png?text=Hoodie+1" alt="Hoodie">
+        <h3>Hoodie</h3>
+        <p>$70</p>
+        <a href="#cart" class="buy-btn">Add to Cart</a>
+      </div>
+    </div>
+  </section>
 
-<section id="cart">
-  <h2>Your Cart</h2>
-  <p>Items will appear here.</p>
-</section>
+  <!-- CART -->
+  <section id="cart">
+    <h2>Your Cart</h2>
+    <p>Items you add will appear here.</p>
+  </section>
 
-<footer>
-  <p>© 2025 FJS | All Rights Reserved</p>
-</footer>
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@futuristicjerseyshop.com</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Futuristic Jersey Shop | All Rights Reserved</p>
+  </footer>
 
 </body>
 </html>
