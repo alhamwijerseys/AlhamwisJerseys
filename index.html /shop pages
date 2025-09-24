@@ -1,7 +1,0 @@
-<input id="search-input" placeholder="Search products..." />
-<div id="product-grid"></div>
-<span id="cart-count">0</span>  <!-- usually in header near cart icon -->
-<button data-cat="all">All</button>
-<button data-cat="Long Sleeve">Long Sleeve</button>
-<button data-cat="Short Sleeve">Short Sleeve</button>
-<button data-cat="Hoodies">Hoodies</button>
