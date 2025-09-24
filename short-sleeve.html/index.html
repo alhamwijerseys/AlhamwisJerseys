@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alhamwi — Jerseys & Hoodies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="https://cdn.coverr.co/videos/coverr-dubai-skyline-at-night-1589/1080p.mp4" type="video/mp4">
+  </video>
+
+  <!-- Header -->
+  <header>
+    <div class="brand">Alhamwi</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="long-sleeve.html">Long Sleeve</a>
+      <a href="short-sleeve.html">Short Sleeve</a>
+      <a href="hoodies.html">Hoodies</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="site">
+    <section class="hero">
+      <h1>Alhamwi</h1>
+      <p>Premium Jerseys & Hoodies — shop securely with PayPal</p>
+    </section>
+
+    <section class="controls">
+      <input id="search-input" placeholder="Search products..." />
+      <div class="cat-buttons">
+        <button data-cat="all">All</button>
+        <button data-cat="Long Sleeve">Long Sleeve</button>
+        <button data-cat="Short Sleeve">Short Sleeve</button>
+        <button data-cat="Hoodies">Hoodies</button>
+      </div>
+    </section>
+
+    <section id="product-grid" data-show=""></section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Alhamwi • Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
