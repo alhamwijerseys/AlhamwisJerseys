@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product — Alhamwi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">Alhamwi</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="long-sleeve.html">Long Sleeve</a>
+    <a href="short-sleeve.html">Short Sleeve</a>
+    <a href="hoodies.html">Hoodies</a>
+    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="product-page">
+  <div class="product-left">
+    <img id="product-image" src="" alt="Product image">
+  </div>
+  <div class="product-right">
+    <h1 id="product-title">Product Title</h1>
+    <div id="product-price" class="price">$0.00</div>
+    <p id="product-desc">Long description here...</p>
+
+    <label>Qty: <input id="product-qty" type="number" min="1" value="1"></label>
+    <div class="product-actions">
+      <button id="add-to-cart">Add to Cart</button>
+      <a id="buy-now-paypal" class="buy-now" href="#">Buy Now (PayPal)</a>
+    </div>
+
+    <hr>
+
+    <section id="reviews">
+      <h3>Reviews</h3>
+      <div id="reviews-list"></div>
+      <form id="review-form">
+        <input name="name" placeholder="Your name" required>
+        <select name="rating">
+          <option value="5">5 — Excellent</option>
+          <option value="4">4</option>
+          <option value="3">3</option>
+          <option value="2">2</option>
+          <option value="1">1 — Poor</option>
+        </select>
+        <textarea name="comment" placeholder="Write a review" required></textarea>
+        <button type="submit">Leave Review</button>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <p>© <span id="year2"></span> Alhamwi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
